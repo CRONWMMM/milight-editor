@@ -10,11 +10,29 @@
 </head>
 <body>
 	<div class="container">
-		<div class="row">
+		<div class=" row">
+			<div id="milight-editor" class="col-md-8 col-md-offset-2">
+				
+			</div>
+		</div>
+	</div>
+	
+	
+	<script src="../js/jquery/jquery-2.0.3.min.js"></script>
+	<script src="../js/bootstrap/js/bootstrap.min.js"></script>
+	<script src="../js/milight-editor.js"></script>
+	<script>
+		var me = $('#milight-editor').ME();
+		console.log(me.data('ME'));
+	</script>
+</body>
+</html>
+
+<!-- 			
 			<div id="milight-editor" class="col-md-8 col-md-offset-2">
 				<div class="row">
 					<div class="col-md-12 editor-header">
-						<input type="file" id="upload" name="pic[]" multiple="multiple">
+						<input type="file" id="milight-editor-uploadpic" name="pic[]" multiple="multiple">
 						<div class="btn-group" role="toolbar" aria-label="...">
 						  <button id="milight-editor-wrap" type="button" class="btn btn-default">
 							<span class="glyphicon glyphicon-pencil"></span>
@@ -28,6 +46,9 @@
 						  <button id="milight-editor-code" type="button" class="btn btn-default">
 							<span class="glyphicon glyphicon-edit"></span>
 						  </button>
+						  <button id="milight-editor-quote" type="button" class="btn btn-default">
+							<span class="glyphicon glyphicon-paperclip"></span>
+						  </button>
 						  <button id="milight-editor-pic" type="button" class="btn btn-default">
 							<span class="glyphicon glyphicon-picture"></span>
 						  </button>
@@ -37,10 +58,17 @@
 						  <button id="milight-editor-hr" type="button" class="btn btn-default">
 							<span class="glyphicon glyphicon-minus"></span>
 						  </button>
-						  <button type="button" class="btn btn-default">
+						  <button id="milight-editor-music" type="button" class="btn btn-default">
 							<span class="glyphicon glyphicon-music"></span>
 						  </button>
 						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 editor-body" contenteditable="true">asdsa</div>
+				</div>
+			</div>
+-->
 
 <!-- 						<ul class="list-inline">
 							<li>
@@ -56,18 +84,3 @@
 							<li><span class="glyphicon glyphicon-new-window"></span></li>
 							<li><span class="glyphicon glyphicon-music"></span></li>
 						</ul> -->
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12 editor-body" contenteditable="true">asdsa</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	
-	<script src="../js/jquery/jquery-2.0.3.min.js"></script>
-	<script src="../js/bootstrap/js/bootstrap.min.js"></script>
-	<script src="../js/milight-editor.js"></script>
-</body>
-</html>
