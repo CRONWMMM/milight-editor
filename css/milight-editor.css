@@ -9,7 +9,7 @@
 
 
 
-#milight-editor .editor-header{
+.editor-header{
 	position : relative;
 	border-radius : 4px 4px 0 0;
 	border : 1px solid #ccc;
@@ -17,17 +17,17 @@
 	height : 50px;
 	background-color : #eee;
 }
-#milight-editor .editor-header .btn-group{
+.editor-header .btn-group{
 	position : absolute;
 	top : 50%;
 	margin-top : -17.5px;
 }
-#milight-editor .editor-header .btn-group button{
+.editor-header .btn-group button{
 	border : none;
 	background : none;
 	font-size : 1.2em;
 }
-#milight-editor .editor-header .milight-editor-uploadpic{
+.editor-header .milight-editor-uploadpic{
 	position : absolute;
 	top : 0;
 	left : -1000px;
@@ -35,7 +35,7 @@
 	height : 35px;
 	opacity : 0;
 }
-#milight-editor .editor-header .btn-group button:hover{
+.editor-header .btn-group button:hover{
 	border-radius : 4px;
 	background-color : #ccc;
 	cursor : pointer;

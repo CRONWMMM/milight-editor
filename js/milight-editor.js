@@ -79,7 +79,8 @@ $(function(){
   */
 ;(function($,window,document,undefined){
 
-	var pluginName = 'ME';						// ------挂在jQuery原型上的插件名称
+	// 挂在jQuery原型上的插件名称
+	var pluginName = 'ME';						
 
 
 	/**
